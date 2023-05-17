@@ -29,7 +29,7 @@ def CoolPush(info): #CoolPush酷推
     # cpurl = 'https://push.xuthus.cc/group/'+spkey   #推送到QQ群
     # cpurl = 'https://push.xuthus.cc/send/' + SKey  # 推送到个人QQ
     # api='https://push.xuthus.cc/send/{}'.format(SKey)
-    api='https://qmsg.zendee.cn/send/{}'.format(SKey)
+    # api='https://qmsg.zendee.cn/send/{}'.format(SKey)
     api = 'https://qmsg.zendee.cn/send/f23b350ecf7ad9dad56c3f96943f7676'
     print(api)
     print(info)
