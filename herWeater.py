@@ -32,7 +32,9 @@ def CoolPush(info): #CoolPush酷推
     api='https://qmsg.zendee.cn/send/{}'.format(SKey)
     print(api)
     print(info)
-    requests.post(api, msg = info.encode('utf-8'), qq = '1198718068')
+    data={"msg":info.encode('utf-8'),
+         "qq":"1198718068"}
+    requests.post(api, data=data)
 def main():
     try:
         api = 'http://t.weather.itboy.net/api/weather/city/'             #API地址，必须配合城市代码使用
